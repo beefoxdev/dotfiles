@@ -2,6 +2,26 @@
   "$schema": "https://opencode.ai/config.json",
   "theme": "catppuccin",
   "autoupdate": true,
+  "provider": {
+    "lmstudio": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LM Studio (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:1234/v1"
+      },
+      "models": {
+        "openai/gpt-oss-20b": {
+          "name": "gpt-oss-20b"
+        },
+        "openai/gpt-oss-120b": {
+          "name": "gpt-oss-120b"
+        },
+        "qwen/qwen3-coder-30b": {
+          "name": "gwen3-coder-30b"
+        }
+      }
+    }
+  },
   "mcp": {
      "context7": {
        "type": "local",
