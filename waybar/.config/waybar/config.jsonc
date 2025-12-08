@@ -66,9 +66,8 @@
     "tooltip": false,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
   },
-    "network": {
-      "interface": "wlan0",
-      "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+     "network": {
+       "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
       "format": "{icon}",
       "format-wifi": "{icon}",
       "format-ethernet": "󰀂",
